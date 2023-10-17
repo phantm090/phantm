@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta name="desciption" content="interface">
+
+        <meta name="keywords" content="HTML CSS">
+
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+
+        <meta name="author" content="phantm">
+
+
+        <title>
+
+            phantm site
+
+        </title>
+
+        <style>
+
+            button
+                {
+                    font-size: 55px;
+
+                    height: 75px;
+
+                    width: 250px;
+
+                    top: 70%;
+
+                    left: 39.5%;
+
+                    position: absolute;
+
+                    transition-duration: 2.5s;
+
+                    border: black solid 2px;
+
+                    box-shadow: 0px 0px 100px red, 0px 0px 100px blueviolet;
+                }
+
+            button:hover
+                {
+                    cursor: pointer;
+
+                    border-top-left-radius: 300px;
+
+                    border-bottom-right-radius: 300px;
+
+                    color: white;
+
+                    background: linear-gradient(red, black, blueviolet);
+                }
+
+            div
+                {
+                    background-image: url("mount.jpg");
+
+                    background-repeat: no-repeat;
+
+                    background-position: center;
+
+                    background-size: cover;
+
+                    background-attachment: fixed;
+
+                    position: fixed;
+
+                    height: 100%;
+
+                    width: 100%;
+
+                    filter: blur(2px);
+
+                    z-index: -1;
+                }
+
+            .a
+                {
+                    background-image: url("rin.jpg");
+
+                    background-position: center;
+
+                    background-repeat: no-repeat;
+
+                    background-attachment: scroll;
+
+                    position: absolute;
+
+                    background-size: cover;
+
+                    animation-name: kr;
+
+                    animation-timing-function: linear;
+
+                    animation-delay: 0.5s;
+
+                    animation-iteration-count: infinite;
+
+                    animation-duration: 6s;
+
+                    animation-play-state: running;
+
+                    animation-fill-mode: forwards;
+                }
+
+            fieldset
+                {
+                    height: 325px;
+
+                    width: 325px;
+
+                    border: inset;
+
+                    border-radius: 500em;
+
+                    top: 2%;
+
+                    left: 35%;
+                }
+
+            @keyframes kr 
+            {
+                0%
+                    {
+                        background-image: url("rin.jpg");
+                    }
+
+                25%
+                    {
+                        background-image: url("rin.jpg");
+                    }
+
+                50%
+                    {
+                        background-image: url("obirin.jpg");
+                    }
+
+                75%
+                    {
+                        background-image: url("obirin.jpg");
+                    }
+
+                100%
+                    {
+                        background-image: url("rin.jpg");
+                    }
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        
+        <div>
+
+
+
+        </div>
+
+        <fieldset class="a">
+
+
+
+        </fieldset>
+
+        <br>
+
+        <button onclick="window.location.href = '1.html'">
+
+            Contine
+
+        </button>
+
+    </body>
+
+</html>
